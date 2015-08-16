@@ -1,69 +1,68 @@
 <!DOCTYPE html>
 <html>
+	<!-- Header includes css stylesheet reference-->
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 				<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 				<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 				<link rel="stylesheet" href="css.css"/>
-	<link rel="stylesheet" href="jquery.mobile.icons.min.css" />
+				<link rel="stylesheet" href="jquery.mobile.icons.min.css" />
 			</head>
 			<body>
-<div data-role="page" id="feedback">
-		<div data-role="header">
-			<h1>Big Rich's</h1>
-		</div>
-
-		<div data-role="main" class="ui-content">
-			<h2>Feedback:</h2>
-			<p> Fill out all the fields for your feedback </p>
-			<form name="feedback" method="post" action="">
-				<div class="ui-field-contain">
-					<!-- First Name -->
-					<label for="firstname">First name:</label>
-					<input type="text" name="firstname" id="firstname" pattern="[a-zA-z]+" required="true">
-					<!-- Surname -->
-					<label for="surname">Surname:</label>
-					<input type="text" name="surname"id="surname" pattern="[a-zA-z]+" required="true">	
-					<!-- Email -->
-					<label for="email">E-mail:</label>
-					<input type="email" name="email" id="email" placeholder="Your email.." required="true">
-					<!-- Menu Selection -->
-					<label for="day">Select Food:</label>
-					<select required="true">
-						<option value="">Please select</option>
-						<option value="one">Rich's Great feed</option>
-						<option value="two">Spinach tomato feta cheese stuffed chicken with brown rice</option>
-						<option value="three">Rich's Lean Beef Pasta</option>
-						<option value="four">Mustard baked salmon with grilled asparagus</option>
-						<option value="five">Protein banana blueberry and oatmeal panacakes</option>
-					</select>
-					<!-- Comments -->
-					<label for="comments">Comments:</label>
-					<textarea name="comments" id="comments" required="true"></textarea>
-				</div>
-					<input type="submit" data-inline="true" value="Submit">
-			</form>
-		</div>
-			
-			
-
-						<div data-role="footer">
-			<div data-role="navbar">
-				<ul>
-					<li><a href="homepage.html" data-icon="home">Home</a></li>
-					<li><a href="#" data-rel="back" data-icon="back">Back</a></li>
-					<li><a href="tel:0431333222" data-icon="phone">Call Us</a></li>
-					<li><a href="search.html" data-icon="search">Search</a></li>
-				</ul>
-			</div>
-				<h4>&copy; Edin Gogic 2015</h4>
-		</div>
-				</div> 
-
-
-
-
-
-			</body>
-		</html>
+				<!-- Header for the homepage-->
+				<div data-role="page" id="feedback">
+					<div data-role="header">
+						<!-- Title-->
+						<h1>Big Rich's</h1>
+					</div>
+					<!-- Feedback Menu-->
+					<div data-role="main" class="ui-content">
+						<h2>Feedback:</h2>
+						<p> Fill out all the fields for your feedback </p>
+						<!-- Feed back method-->
+						<form name="feedback" method="post" action="">
+							<div class="ui-field-contain">
+								<!-- First Name -->
+								<label for="firstname">First name:</label>
+								<input type="text" name="firstname" id="firstname" pattern="[a-zA-z]+" required="true">
+								<!-- Surname -->
+								<label for="surname">Surname:</label>
+								<input type="text" name="surname"id="surname" pattern="[a-zA-z]+" required="true">	
+								<!-- Email -->
+								<label for="email">E-mail:</label>
+								<input type="email" name="email" id="email" placeholder="Your email.." required="true">
+								<!-- Food -->
+								<label for="day">Select Food:</label>
+								<select required="true">
+									<option value="">Please select</option>
+									<option value="one">Rich's Great feed</option>
+									<option value="two">Spinach tomato feta cheese stuffed chicken with brown rice</option>
+									<option value="three">Rich's Lean Beef Pasta</option>
+									<option value="four">Mustard baked salmon with grilled asparagus</option>
+									<option value="five">Protein banana blueberry and oatmeal panacakes</option>
+								</select>
+								<!-- Comments -->
+								<label for="comments">Comments:</label>
+								<textarea name="comments" id="comments" required="true"></textarea>
+							</div>
+								<input type="submit" data-inline="true" value="Submit">
+						</form>
+								</div>
+									<!-- Footer with buttons allocate to hompage, back, callus, search -->
+									<div data-role="footer">
+										<div data-role="navbar">
+											<ul>
+												<li><a href="homepage.html" data-icon="home">Home</a></li>
+												<li><a href="#" data-rel="back" data-icon="back">Back</a></li>
+												<li><a href="tel:0431333222" data-icon="phone">Call Us</a></li>
+												<li><a href="search.html" data-icon="search">Search</a></li>
+											</ul>
+										</div>
+										<!-- copyright footer with logo-->
+										<h4>&copy; Edin Gogic 2015</h4>
+										<div div id="logo">
+										</div>
+									</div> 
+								</body>
+							</html>

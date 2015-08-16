@@ -1,65 +1,73 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-<link rel="stylesheet" href="css.css"/>
-	<link rel="stylesheet" href="jquery.mobile.icons.min.css" />
-</head>
-<body>
+	<!-- Header includes css stylesheet reference-->
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+				<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+				<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+				<link rel="stylesheet" href="css.css"/>
+				<link rel="stylesheet" href="jquery.mobile.icons.min.css" />
+			</head>
+			<body>
+				<!-- Header for the homepage-->
+				<div data-role="page" id="Rich's Great Feed">
+					<div data-role="header">
+						<!-- Title-->
+						<h1>Rich's Great Feed</h1>
+					</div>
+					<!-- Image-->
+					<center><img src="yams.jpg" class="ui-li-icon"></center>
+						<div data-role="main" class="ui-content">
+							<!-- Link for image-->
+							<center><a href="https://www.google.com.au/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0CAcQjRxqFQoTCNDj_ZznrMcCFYMhpgodm0kC4Q&url=https%3A%2F%2Fthefoodilove.wordpress.com%2F2010%2F11%2F11%2Fslow-cooked-meatballs%2F&ei=CxfQVZCyD4PDmAWbk4mIDg&bvm=bv.99804247,d.dGY&psig=AFQjCNFZpzJxDmcHdMHAPJlbJb5ack5wGQ&ust=1439787142453230"target="_blank">image reference</a></center>
+							<!-- Ingredients with a unordered list-->
+							<p> INGREDIENTS:</p>
+							<p> <ul>   
+									<li>1 lb. ground turkey breast (97-98% lean)</li>
+									<li>3 medium tomatoes</li>
+									<li>2 medium yellow or white onions</li>
+									<li>8 cloves garlic</li>
+									<li>1 large green pepper</li>
+									<li>1 large egg white</li>
+									<li>2 medium yams</li>
+									<li>Spices</li>
+								</ul> </p>
+							<!-- Table of contents, calories, fat, carbs,protein-->
+							<table data-role="table" class="ui-responsive">
+								<thead>
+									<tr>
+										<th>Calories</th>
+										<th>Total Fat</th>
+										<th>Total Carbs</th>
+										<th>Protein</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>595</td>
+										<td>6g</td>
+										<td>79g</td>
+										<td>57g</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- Footer with buttons allocate to hompage, back, callus, search -->
+						<div data-role="footer">
+							<div data-role="navbar">
+								<ul>
+									<li><a href="homepage.html" data-icon="home">Home</a></li>
+									<li><a href="#" data-rel="back" data-icon="back">Back</a></li>
+									<li><a href="tel:0431333222" data-icon="phone">Call Us</a></li>
+									<li><a href="search.html" data-icon="search">Search</a></li>
+								</ul>
+							</div>
+							<!-- copyright footer with logo-->
+							<h4>&copy; Edin Gogic 2015</h4>
+							<div div id="logo">
+							</div>
+						</div> 
 
-<div data-role="page" id="Rich's Great Feed">
-  <div data-role="header">
-    <h1>Rich's Great Feed</h1>
-  </div>
-  <center><img src="yams.jpg" class="ui-li-icon"></center>
-  <div data-role="main" class="ui-content">
-   <p> INGREDIENTS:</p>
-   <p> <ul>   
-<li>1 lb. ground turkey breast (97-98% lean)</li>
-<li>3 medium tomatoes</li>
-<li>2 medium yellow or white onions</li>
-<li>8 cloves garlic</li>
-<li>1 large green pepper</li>
-<li>1 large egg white</li>
-<li>2 medium yams</li>
-<li>Spices</li>
-</ul> </p>
-    
-	<table data-role="table" class="ui-responsive">
-      <thead>
-        <tr>
-          <th>Calories</th>
-          <th>Total Fat</th>
-          <th>Total Carbs</th>
-          <th>Protein</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>595</td>
-		  <td>6g</td>
-		  <td>79g</td>
-		  <td>57g</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  						<div data-role="footer">
-			<div data-role="navbar">
-				<ul>
-					<li><a href="homepage.html" data-icon="home">Home</a></li>
-					<li><a href="#" data-rel="back" data-icon="back">Back</a></li>
-					<li><a href="tel:0431333222" data-icon="phone">Call Us</a></li>
-					<li><a href="search.html" data-icon="search">Search</a></li>
-				</ul>
-			</div>
-				<h4>&copy; Edin Gogic 2015</h4>
-		</div>
-</div> 
-
-</body>
-</html>
+					</body>
+				</html>
